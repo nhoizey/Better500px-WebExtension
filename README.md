@@ -7,7 +7,7 @@ This is an extension for Firefox, Chrome and Opera that enhances [500px.com](htt
 - "Pulse" item in the menu that links to the search for current photographer, sorted by pulse. It might show several photographers if the name is common.
 - "Favorites" item in the menu that links directly to the favorites, if such a gallery exists and contains at least one photo.
 
-<img src="https://raw.githubusercontent.com/nhoizey/Better500px-WebExtension/master/screenshots/better500px-tchebotarev.png" alt="Better500px on Evgeny Tchebotarev's gallery" width="75%" height="auto" align="center" />
+<p style="text-align: center"><img src="https://raw.githubusercontent.com/nhoizey/Better500px-WebExtension/master/screenshots/better500px-tchebotarev.png" alt="Better500px on Evgeny Tchebotarev's gallery" width="90%" height="auto" style="border: solid 1px #333" /></p>
 
 This extension is built using [the WebExtensions standard](https://developer.mozilla.org/en-US/Add-ons/WebExtensions), sharing the exact same source code for Firefox and Chrome.
 
