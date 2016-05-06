@@ -8,3 +8,7 @@ zip -r ../dist/better500px-firefox.xpi *
 echo "Building the Chrome extension…"
 # https://github.com/oncletom/crx
 ../node_modules/.bin/crx pack -o ../dist/better500px-chrome.crx -p ../better500px.pem
+
+echo "“Building” the Opera extension…"
+cd ../dist/
+cp ./better500px-chrome.crx ./better500px-opera.nex
