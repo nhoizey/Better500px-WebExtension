@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/nhoizey/Better500px-WebExtension/master/src/icons/better500px-96px.png" alt="Better500px" width="96" height="96" align="right" />
+
 # Better500px
 
 This is an extension for Firefox and Chrome that enhances [500px.com](https://500px.com/) with a few useful shortcuts for better navigation:
@@ -7,4 +9,4 @@ This is an extension for Firefox and Chrome that enhances [500px.com](https://50
 
 This extension is built using [the WebExtensions standard](https://developer.mozilla.org/en-US/Add-ons/WebExtensions), sharing the exact same source code for Firefox and Chrome.
 
-The Chrome extension is built using [@oncletom](https://github.com/oncletom)'s [crx](https://github.com/oncletom/crx) node.js command line app.
+The Chrome extension is built using [@oncletom](https://github.com/oncletom)'s [crx](https://github.com/oncletom/crx) Node.js command line app.
