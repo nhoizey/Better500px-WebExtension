@@ -1,0 +1,10 @@
+{
+  "name": "Better500px",
+  "version": "1.1.0",
+  "description": "Enhances 500px.com with a few useful shortcuts for better navigation",
+  "author": "Nicolas Hoizey",
+  "license": "MIT",
+  "devDependencies": {
+    "crx": "^3.0.3"
+  }
+}
