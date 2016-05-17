@@ -35,4 +35,29 @@
         }
       });
   }
+
+  if (d.querySelector('#profiles_show') || d.querySelector('#v4_search_index')) {
+    // In profile pages and search results
+
+    /* *******************************************************************************************
+     * Show the white heart on photos already liked
+     * *******************************************************************************************/
+
+    // https://davidwalsh.name/add-rules-stylesheets
+    var style = document.createElement('style');
+    style.setAttribute('media', 'screen');
+
+    // WebKit hack :(
+    style.appendChild(document.createTextNode(''));
+
+    // Add the <style> element to the page
+    document.head.appendChild(style);
+
+    style.sheet.insertRule('.photo_thumbnail .info { opacity: 1; }', 0);
+    style.sheet.insertRule('.photo_thumbnail .right { opacity: .7; }', 0);
+    style.sheet.insertRule('.photo_thumbnail .right .button.new_fav:not(.hearted) { opacity: 0; }', 0);
+    style.sheet.insertRule('.photo_thumbnail:hover .right .button.new_fav:not(.hearted) { opacity: 1; }', 0);
+    style.sheet.insertRule('.add_to_gallery_button { opacity: 0; }', 0);
+    style.sheet.insertRule('.photo_thumbnail:hover .add_to_gallery_button { opacity: 1; }', 0);
+  }
 }(window, document));
