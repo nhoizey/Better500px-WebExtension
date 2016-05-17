@@ -1,5 +1,6 @@
 (function(w, d) {
   if (d.querySelector('#profiles_show')) {
+    // Only in profile pages
 
     /* *******************************************************************************************
      * Get current photographer informations
