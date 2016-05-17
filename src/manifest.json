@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
   "name": "Better500px",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "author": "Nicolas Hoizey",
 
-  "description": "Enhances 500px.com with a few useful shortcuts for better navigation: link to the search for current photographer sorted by pulse, direct link to the favorites if they exist",
+  "description": "Enhances 500px.com with a few useful shortcuts for better navigation: link to the search for current photographer sorted by pulse, direct link to the favorites if they exist, alway show the heart on liked photos",
   "icons": {
     "48": "icons/better500px-48px.png",
     "96": "icons/better500px-96px.png"
