@@ -21,8 +21,8 @@
     var favoritesAPI = 'https://api.500px.com/v1/users/' + photographerId + '/galleries/favorites?include_user=true&include_cover=1&cover_size=2048&consumer_key=2EECSqFxfl0oEBltvQ19hQ5oeYfyG4AjcZu8jceH';
     fetch(favoritesAPI)
       .then(function(response) {
-        var contentType = response.headers.get("content-type");
-        if(contentType && contentType.indexOf("application/json") !== -1) {
+        var contentType = response.headers.get('content-type');
+        if(contentType && contentType.indexOf('application/json') !== -1) {
           return response.json().then(function(json) {
             var photosCount = json.gallery.items_count;
             if (photosCount > 0) {
