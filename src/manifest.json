@@ -4,10 +4,11 @@
   "version": "1.2.1",
   "author": "Nicolas Hoizey",
 
-  "description": "Enhances 500px.com with a few useful shortcuts for better navigation: link to the search for current photographer sorted by pulse, direct link to the favorites if they exist, alway show the heart on liked photos",
+  "description": "Enhances 500px.com with a few useful shortcuts for better navigation.",
   "icons": {
     "48": "icons/better500px-48px.png",
-    "96": "icons/better500px-96px.png"
+    "96": "icons/better500px-96px.png",
+    "128": "icons/better500px-128px.png"
   },
 
   "applications": {
