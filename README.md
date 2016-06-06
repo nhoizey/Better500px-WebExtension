@@ -4,6 +4,11 @@
 
 This is an extension for Firefox, Chrome and Opera that enhances [500px.com](https://500px.com/) with a few useful shortcuts for better navigation.
 
+## Download/install
+
+- [Firefox add-on](https://addons.mozilla.org/fr/firefox/addon/better500px/)
+- [Chrome extension](https://chrome.google.com/webstore/detail/better500px/ibiamkipmkkignmechblpbdahngkjpam)
+
 ## 500px enhancements
 
 ### Menu items
