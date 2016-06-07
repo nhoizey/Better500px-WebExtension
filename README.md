@@ -26,6 +26,6 @@ This is an extension for Firefox, Chrome and Opera that enhances [500px.com](htt
 
 ## How it is built
 
-This extension is built using [the WebExtensions standard](https://developer.mozilla.org/en-US/Add-ons/WebExtensions), sharing the exact same source code for Firefox and Chrome.
+This extension is built using [the WebExtensions standard](https://developer.mozilla.org/en-US/Add-ons/WebExtensions), sharing the exact same source code for Firefox, Chrome and Opera.
 
 The Chrome (and Opera) extension is built using [@oncletom](https://github.com/oncletom)'s [crx](https://github.com/oncletom/crx) Node.js command line app.
