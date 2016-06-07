@@ -8,6 +8,7 @@ This is an extension for Firefox, Chrome and Opera that enhances [500px.com](htt
 
 - [Firefox add-on](https://addons.mozilla.org/fr/firefox/addon/better500px/)
 - [Chrome extension](https://chrome.google.com/webstore/detail/better500px/ibiamkipmkkignmechblpbdahngkjpam)
+- [Opera extension](https://addons.opera.com/en/extensions/details/better500px/)
 
 ## 500px enhancements
 
