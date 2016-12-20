@@ -4,6 +4,7 @@ cd ./src/
 echo "Building the Firefox extension…"
 # https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension#Packaging_and_publishing
 zip -r ../dist/better500px-firefox.xpi *
+cp ../dist/better500px-firefox.xpi ../dist/better500px-folder.zip
 
 echo "Building the Chrome extension…"
 # https://github.com/oncletom/crx

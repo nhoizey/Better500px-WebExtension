@@ -13,7 +13,7 @@
      * Add "pulse" link to a search on the photographer name, sorted by pulse
      * *******************************************************************************************/
     var photoLi = d.querySelector('.profile_nav.px_tabs li.photos');
-    var pulseLi = '<li><a href="https://500px.com/search?q=' + encodeURIComponent(photographerName).replace(/%0A/g, '') + '&amp;type=photos&amp;sort=pulse">Pulse</a></li>';
+    var pulseLi = '<li><a href="https://500px.com/search?q=' + encodeURIComponent('"' + photographerName + '"').replace(/%0A/g, '') + '&amp;type=photos&amp;sort=pulse">Pulse</a></li>';
     photoLi.insertAdjacentHTML('afterend', pulseLi);
 
     /* *******************************************************************************************
