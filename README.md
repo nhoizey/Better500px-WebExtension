@@ -2,6 +2,8 @@
 
 # Better500px
 
+[![Known Vulnerabilities](https://snyk.io/test/github/nhoizey/better500px-webextension/badge.svg)](https://snyk.io/test/github/nhoizey/better500px-webextension)
+
 This is an extension for Firefox, Chrome and Opera that enhances [500px.com](https://500px.com/) with a few useful shortcuts for better navigation.
 
 ## Download/install
